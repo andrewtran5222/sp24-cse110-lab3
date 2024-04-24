@@ -1,0 +1,85 @@
+/* Style the body element */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Light gray background */
+}
+
+/* Style the header */
+header {
+    background-color: #333; /* Dark gray background */
+    color: #fff; /* White text color */
+    text-align: center;
+    padding: 20px 0; /* Padding on top and bottom */
+}
+
+/* Style the nav bar */
+nav {
+    background-color: #444; /* Slightly lighter gray than header */
+    padding: 10px 0; /* Padding on top and bottom */
+    text-align: center;
+}
+
+nav a {
+    color: #fff; /* White text color */
+    text-decoration: none;
+    margin: 0 15px; /* Spacing between links */
+}
+
+/* Style the main section */
+main {
+    padding: 20px; /* Padding inside the main section */
+}
+
+/* Style sections */
+section {
+    margin-bottom: 20px; /* Spacing between sections */
+}
+
+/* Style form elements */
+form {
+    margin-top: 20px; /* Spacing between form and previous content */
+}
+
+fieldset {
+    border: none; /* Remove border */
+}
+
+legend {
+    font-weight: bold; /* Make legend text bold */
+}
+
+label {
+    display: block; /* Display labels as block elements */
+    margin-bottom: 5px; /* Spacing between labels and input elements */
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    margin-right: 5px; /* Spacing between checkbox/radio and label text */
+}
+
+input,
+textarea,
+select,
+button {
+    margin-bottom: 10px; /* Spacing between form elements */
+    padding: 5px; /* Padding inside form elements */
+    width: 100%; /* Make form elements fill entire width */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+/* Style the footer */
+footer {
+    background-color: #333; /* Dark gray background */
+    color: #fff; /* White text color */
+    text-align: center;
+    padding: 10px 0; /* Padding on top and bottom */
+}
+
+hr {
+    border: none; /* Remove default border */
+    border-top: 1px solid #fff; /* White top border */
+    margin: 10px 0; /* Spacing above and below HR */
+}
