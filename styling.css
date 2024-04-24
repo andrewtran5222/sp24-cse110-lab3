@@ -92,9 +92,9 @@ section {
     flex: 1; /* Allow sections to grow and shrink as needed */
 
     /* Nested Selector */
-    h2 {
-        color: #007bff; /* Blue color for h2 within section */
-        margin-bottom: 10px; /* Bottom margin for h2 within section */
+    .h2 {
+        color: #007bff; 
+        margin-bottom: 10px; 
     }
 }
 
