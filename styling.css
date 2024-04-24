@@ -11,13 +11,13 @@ header {
     background-color: #333; /* Dark gray background */
     color: #fff; /* White text color */
     text-align: center;
-    padding: 20px 0; /* Padding on top and bottom */
+    padding: 1em; /* Padding using em unit */
 }
 
 /* Style the nav bar */
 nav {
     background-color: #444; /* Slightly lighter gray than header */
-    padding: 10px 0; /* Padding on top and bottom */
+    padding: 1rem; /* Padding using rem unit */
     text-align: center;
 }
 
@@ -29,7 +29,7 @@ nav a {
 
 /* Style the main section */
 main {
-    padding: 20px; /* Padding inside the main section */
+    padding: 5%; /* Padding using percentage unit */
 }
 
 /* Style sections */
@@ -53,6 +53,7 @@ legend {
 label {
     display: block; /* Display labels as block elements */
     margin-bottom: 5px; /* Spacing between labels and input elements */
+    font-size: 12pt; /* Font size using point unit */
 }
 
 input[type="checkbox"],
@@ -64,7 +65,7 @@ input,
 textarea,
 select,
 button {
-    margin-bottom: 10px; /* Spacing between form elements */
+    margin-bottom: 0.5in; /* Margin using inch unit */
     padding: 5px; /* Padding inside form elements */
     width: 100%; /* Make form elements fill entire width */
     box-sizing: border-box; /* Include padding and border in element's total width and height */
