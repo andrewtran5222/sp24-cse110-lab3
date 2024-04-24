@@ -109,16 +109,27 @@ footer {
     text-align: center;
     padding: 10px 0; /* Padding on top and bottom */
     border-radius: 5px; /* Rounded corners */
+    /* Footer Grid */
+    display: grid; /* Apply Grid to the footer */
+    grid-template-columns: repeat(3, 1fr); /* Create a grid layout with three equal columns */
+    grid-gap: 10px; /* Set gap between grid items */
+    justify-content: center; /* Center align grid items horizontally */
+    align-items: center; /* Center align grid items vertically */
+}
+
+footer div {
+    padding: 10px; /* Add padding to grid items */
+    border: 1px solid #333; /* Add border to grid items */
+}
+
+footer hr {
+    display: inline-block; /* Display the HR inside footer as an inline-block element */
 }
 
 hr {
     border: none; /* Remove default border */
     border-top: 1px solid #fff; /* White top border */
     margin: 10px 0; /* Spacing above and below HR */
-}
-
-footer hr {
-    display: inline-block; /* Display the HR inside footer as an inline-block element */
 }
 
 /* Text Color and Font Styling */
