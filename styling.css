@@ -98,6 +98,10 @@ button {
     border-width: 1px; /* 1px border width */
 }
 
+button:active {
+    background-color: #0000ff; /* Change background color of buttons when active */
+}
+
 /* Style the footer */
 footer {
     background-color: #333; /* Dark gray background */
