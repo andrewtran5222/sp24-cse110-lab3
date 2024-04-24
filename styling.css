@@ -31,6 +31,8 @@ a:hover {
     text-decoration: underline; /* Add underline on hover for links */
 }
 
+
+
 /* Style the header */
 header {
     background-color: #333; /* Dark gray background */
@@ -53,13 +55,6 @@ nav {
     text-align: center; /* Center align navigation links */
     margin: 10px 0; /* Top and bottom margin 10px, left and right */
     display: block; /* Display the nav as a block element */
-
-    &:hover {
-        li {
-            background-color: #666; /* Change background color of list items when nav is hovered */
-            border-radius: 5px; /* Add border radius to list items */
-        }
-    }
 }
 
 nav > a {
@@ -95,6 +90,12 @@ section {
     max-width: 800px; /* Set maximum width of sections */
     position: relative; /* Set position of section to relative */
     flex: 1; /* Allow sections to grow and shrink as needed */
+
+    /* Nested Selector */
+    h2 {
+        color: #007bff; /* Blue color for h2 within section */
+        margin-bottom: 10px; /* Bottom margin for h2 within section */
+    }
 }
 
 /* Style form elements */
