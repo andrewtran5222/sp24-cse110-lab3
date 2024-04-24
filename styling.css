@@ -16,6 +16,9 @@ header {
     margin-right: 10px;
     margin-bottom: 20px;
     margin-left: 10px;
+    position: fixed; /* Set position of header to fixed */
+    top: 0; /* Align header to the top of the viewport */
+    width: 100%; /* Set header width to 100% of the viewport */
 }
 
 /* Style the nav bar */
@@ -23,19 +26,26 @@ nav {
     background-color: #444; /* Slightly lighter gray than header */
     padding: 1rem; /* Padding using rem unit */
     text-align: center;
-    margin: 10px 0; /* Top and bottom margin 10px, left and right
+    margin: 10px 0; /* Top and bottom margin 10px, left and right */
+    display: block; /* Display the nav as a block element */
 }
 
 nav a {
     color: #fff; /* White text color */
     text-decoration: none;
     margin: 0 15px; /* Spacing between links */
+    width: 100px; /* Set width of navigation links */
+}
+
+nav a:hover {
+    color: #ff0000; /* Change color of navigation links on hover */
 }
 
 /* Style the main section */
 main {
     padding: 5%; /* Padding using percentage unit */
     margin: auto; /* Center the main section horizontally */
+    height: 100%; /* Set main section height to 100% of its containing element (typically the viewport) */
 }
 
 /* Style sections */
@@ -46,12 +56,15 @@ section {
     padding-bottom: 15px;
     padding-left: 20px;
     border-style: solid; /* Solid border */
+    max-width: 800px; /* Set maximum width of sections */
+    position: relative; /* Set position of section to relative */
 }
 
 /* Style form elements */
 form {
     margin-top: 20px; /* Spacing between form and previous content */
     padding: 10px; /* All sides 10px */
+    min-width: 300px; /* Set minimum width of form */
 }
 
 fieldset {
@@ -85,6 +98,10 @@ button {
     border-width: 1px; /* 1px border width */
 }
 
+button:active {
+    background-color: #0000ff; /* Change background color of buttons when active */
+}
+
 /* Style the footer */
 footer {
     background-color: #333; /* Dark gray background */
@@ -98,4 +115,8 @@ hr {
     border: none; /* Remove default border */
     border-top: 1px solid #fff; /* White top border */
     margin: 10px 0; /* Spacing above and below HR */
+}
+
+footer hr {
+    display: inline-block; /* Display the HR inside footer as an inline-block element */
 }
