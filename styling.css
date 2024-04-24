@@ -6,6 +6,10 @@ body {
     background-color: #f0f0f0; /* Light gray background */
 }
 
+h1:has(+ p) {
+    margin-bottom: 0;
+}
+
 h2 ~ p {
     font-family: 'Courier New', Courier, monospace
 }
@@ -49,6 +53,13 @@ nav {
     text-align: center; /* Center align navigation links */
     margin: 10px 0; /* Top and bottom margin 10px, left and right */
     display: block; /* Display the nav as a block element */
+
+    &:hover {
+        li {
+            background-color: #666; /* Change background color of list items when nav is hovered */
+            border-radius: 5px; /* Add border radius to list items */
+        }
+    }
 }
 
 nav > a {
