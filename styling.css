@@ -6,6 +6,14 @@ body {
     background-color: #f0f0f0; /* Light gray background */
 }
 
+h2 ~ p {
+    font-family: 'Courier New', Courier, monospace
+}
+
+h3 + p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
 p, li, label {
     color: #666; /* Medium gray text color for paragraphs, list items, and labels */
 }
@@ -43,7 +51,7 @@ nav {
     display: block; /* Display the nav as a block element */
 }
 
-nav a {
+nav > a {
     color: #fff; /* White text color */
     text-decoration: none;
     margin: 0 15px; /* Spacing between links */
@@ -118,6 +126,14 @@ button {
 
 button:active {
     background-color: #0000ff; /* Change background color of buttons when active */
+}
+
+#datalist {
+    background-color: #a1a1e2; 
+}
+
+input[type="text"] {
+    background-color: #777245; 
 }
 
 /* Style the footer */
