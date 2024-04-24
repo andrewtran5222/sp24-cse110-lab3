@@ -1,25 +1,31 @@
-/* Style the body element */
+/* Text Color and Font Styling */
 body {
-    font-family: Arial, sans-serif;
+    font-family: Open Sans, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f0f0f0; /* Light gray background */
 }
 
-/* Style the header */
-header {
-    background-color: #333; /* Dark gray background */
-    color: #fff; /* White text color */
-    text-align: center;
-    padding: 1em; /* Padding using em unit */
-    margin-top: 20px;
-    margin-right: 10px;
-    margin-bottom: 20px;
-    margin-left: 10px;
-    position: fixed; /* Set position of header to fixed */
-    top: 0; /* Align header to the top of the viewport */
-    width: 100%; /* Set header width to 100% of the viewport */
+h1, h2, h3 {
+    color: #333; /* Dark gray text color for headers */
 }
+
+p, li, label {
+    color: #666; /* Medium gray text color for paragraphs, list items, and labels */
+}
+
+/* Text Decoration */
+a {
+    text-decoration: none; /* Remove underline from links */
+}
+
+a:hover {
+    text-decoration: underline; /* Add underline on hover for links */
+}
+
+
+/* Style the header */
+
 
 /* Style the nav bar */
 nav {
@@ -135,27 +141,4 @@ hr {
     border: none; /* Remove default border */
     border-top: 1px solid #fff; /* White top border */
     margin: 10px 0; /* Spacing above and below HR */
-}
-
-/* Text Color and Font Styling */
-
-h1, h2, h3 {
-    color: #333; /* Dark gray text color for headers */
-}
-
-p, li, label {
-    color: #666; /* Medium gray text color for paragraphs, list items, and labels */
-}
-
-/* Text Decoration */
-a {
-    text-decoration: none; /* Remove underline from links */
-}
-
-a:hover {
-    text-decoration: underline; /* Add underline on hover for links */
-}
-
-body {
-    font-family: 'Open Sans', sans-serif; /* Specify Open Sans font for the entire document */
 }
