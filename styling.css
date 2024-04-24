@@ -46,6 +46,10 @@ main {
     padding: 5%; /* Padding using percentage unit */
     margin: auto; /* Center the main section horizontally */
     height: 100%; /* Set main section height to 100% of its containing element (typically the viewport) */
+    display: flex; /* Apply Flexbox to the main section */
+    flex-direction: column; /* Arrange children elements vertically */
+    justify-content: center; /* Center align children elements vertically */
+    align-items: center; /* Center align children elements horizontally */
 }
 
 /* Style sections */
@@ -58,6 +62,7 @@ section {
     border-style: solid; /* Solid border */
     max-width: 800px; /* Set maximum width of sections */
     position: relative; /* Set position of section to relative */
+    flex: 1; /* Allow sections to grow and shrink as needed */
 }
 
 /* Style form elements */
