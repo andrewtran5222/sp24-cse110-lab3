@@ -25,7 +25,7 @@ header {
 nav {
     background-color: #444; /* Slightly lighter gray than header */
     padding: 1rem; /* Padding using rem unit */
-    text-align: center;
+    text-align: center; /* Center align navigation links */
     margin: 10px 0; /* Top and bottom margin 10px, left and right */
     display: block; /* Display the nav as a block element */
 }
@@ -119,4 +119,27 @@ hr {
 
 footer hr {
     display: inline-block; /* Display the HR inside footer as an inline-block element */
+}
+
+/* Text Color and Font Styling */
+
+h1, h2, h3 {
+    color: #333; /* Dark gray text color for headers */
+}
+
+p, li, label {
+    color: #666; /* Medium gray text color for paragraphs, list items, and labels */
+}
+
+/* Text Decoration */
+a {
+    text-decoration: none; /* Remove underline from links */
+}
+
+a:hover {
+    text-decoration: underline; /* Add underline on hover for links */
+}
+
+body {
+    font-family: 'Open Sans', sans-serif; /* Specify Open Sans font for the entire document */
 }
